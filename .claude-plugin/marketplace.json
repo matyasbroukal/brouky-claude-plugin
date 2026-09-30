@@ -1,0 +1,11 @@
+{
+  "name": "brouky",
+  "owner": { "name": "Brouky", "url": "https://brouky.tech" },
+  "plugins": [
+    {
+      "name": "brouky",
+      "source": "./",
+      "description": "VC and startup intelligence in Claude: AI VC Finder, deal sourcing, deck analysis, investor and market data."
+    }
+  ]
+}
