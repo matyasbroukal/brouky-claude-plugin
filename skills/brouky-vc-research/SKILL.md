@@ -1,11 +1,30 @@
 ---
 name: brouky-vc-research
-description: Use Brouky's MCP tools for fundraising and venture research. Use when the user asks for investors for a startup, VCs in a country or sector, a market overview, deal sourcing for a fund, a pitch deck review, or any question about venture deals and funding rounds.
+description: Use Brouky's MCP tools for fundraising and venture research. Use when the user asks about their own startup, investor shortlist, fund, portfolio or leads, or for investors for a startup, VCs in a country or sector, a market overview, deal sourcing for a fund, a pitch deck review, or any question about venture deals and funding rounds.
 ---
 
 # Venture research with Brouky
 
 Brouky's tools run on live data about investors, startups and funding rounds since 2020.
+
+## The user's own work comes first
+
+The connection is the user's Brouky account. When they say "my startup", "my investors", "my fund",
+"my portfolio" or "my leads", call `my_context` first, then the matching tool, instead of asking them
+to describe themselves:
+
+- **Founders**: `my_startup` (profile, deck score, past runs), `my_investor_shortlist` (who stands
+  where; flags quiet follow-ups), `update_shortlist` ("mark Credo as contacted"; the only tool that
+  changes data, confirm with the user first), and `find_investors` with no website uses their startup.
+- **Investors**: `my_fund`, `my_portfolio`, `portfolio_status` (who raises next),
+  `find_round_investors` ("co-investors for Victor's next round"; the company is found in their
+  portfolio first), `my_deal_pipeline`.
+- **Organisations**: `my_leads`, `my_applications`, `find_customers`.
+
+If a tool answers `needs_choice`, several companies share the name: ask the user which one and call
+again with its website.
+
+## Research tools
 
 - **Investors for a startup**: `find_investors` with the startup's website. If you already know
   what the startup does, pass `sector` (and `subsectors` / `tags`) so the first run matches the
