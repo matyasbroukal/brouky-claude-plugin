@@ -1,10 +1,20 @@
 {
   "name": "brouky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VC and startup intelligence: AI VC Finder, deal sourcing, deck analysis, investor, startup and market data from Brouky.",
-  "author": { "name": "Brouky", "url": "https://brouky.tech" },
+  "author": {
+    "name": "Brouky",
+    "url": "https://brouky.tech"
+  },
   "homepage": "https://brouky.tech/developers",
   "repository": "https://github.com/matyasbroukal/brouky-claude-plugin",
   "license": "MIT",
-  "keywords": ["venture capital", "fundraising", "investors", "startups", "mcp"]
+  "keywords": [
+    "venture capital",
+    "fundraising",
+    "investors",
+    "startups",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://brouky.tech/privacy"
 }
