@@ -18,8 +18,12 @@ to describe themselves:
   changes data, confirm with the user first), and `find_investors` with no website uses their startup.
 - **Investors**: `my_fund`, `my_portfolio`, `portfolio_status` (who raises next),
   `find_round_investors` ("co-investors for Victor's next round"; the company is found in their
-  portfolio first), `my_deal_pipeline`.
+  portfolio first), `my_deal_pipeline`, `startups_raising_next` (deal flow: startups in the fund's
+  focus about to raise; unlocking 5 more costs 10 credits, ask first).
 - **Organisations**: `my_leads`, `my_applications`, `find_customers`.
+
+Premium country and topic reports: `premium_report` returns the link, or the price if locked (ask
+before `unlock: true`).
 
 If a tool answers `needs_choice`, several companies share the name: ask the user which one and call
 again with its website.
