@@ -1,6 +1,10 @@
 {
   "name": "brouky",
-  "owner": { "name": "Brouky", "url": "https://brouky.tech" },
+  "description": "Brouky's plugin for Claude: venture capital and startup research over MCP.",
+  "owner": {
+    "name": "Brouky",
+    "url": "https://brouky.tech"
+  },
   "plugins": [
     {
       "name": "brouky",
