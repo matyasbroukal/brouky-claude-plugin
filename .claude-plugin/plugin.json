@@ -1,7 +1,7 @@
 {
   "name": "brouky",
-  "version": "1.2.0",
-  "description": "VC and startup intelligence: AI VC Finder, deal sourcing, deck analysis, investor, startup and market data from Brouky.",
+  "version": "1.4.0",
+  "description": "VC and startup intelligence from Brouky: AI VC Finder, investor outreach with warm intros, deal sourcing, deck analysis, LP fund selection and LP prospects, and investor, startup, round and market data.",
   "author": {
     "name": "Brouky",
     "url": "https://brouky.tech"
