@@ -1,5 +1,7 @@
 # Brouky for Claude
 
+[![mcptry](https://mcptry.com/badge/tech.brouky/brouky)](https://mcptry.com/servers/tech.brouky/brouky)
+
 Venture research inside Claude: find the investors that fit a startup, write and track the emails to
 them, source deals for a fund, analyse pitch decks, and ask any question about investors, startups
 and funding rounds since 2020. Results come from [Brouky](https://brouky.tech)'s database of 44,000+
